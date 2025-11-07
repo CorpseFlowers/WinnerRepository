@@ -29,5 +29,9 @@ as.container {
 .card {
     background-color: #1eff00;
     padding: 20px;
-    border-radius: 50px
+    border-radius: 50px;
+}
+
+.card:hover {
+    size-transform: scale(1.05);
 }
