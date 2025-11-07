@@ -1,12 +1,3 @@
-as.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    font-family: Arial, sans-serif;
-}
-
 .title {
     color: #333;
     margin-bottom: 20px;
