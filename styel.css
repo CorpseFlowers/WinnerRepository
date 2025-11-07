@@ -30,6 +30,7 @@ as.container {
     background-color: #1eff00;
     padding: 20px;
     border-radius: 50px;
+    transition: transform 0.3s ease-in;
 }
 
 .card:hover {
