@@ -1,3 +1,16 @@
+/* เปลี่ยนจาก as.container เป็น .container
+  ตอนนี้มันจะทำงานกับ <body> ที่เราใส่ class ไว้ 
+*/
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* 100vh = เต็มความสูงของหน้าจอ */
+    font-family: Arial, sans-serif;
+    margin: 0; /* ลบ margin เริ่มต้นของ body */
+}
+
 .title {
     color: #333;
     margin-bottom: 20px;
@@ -11,6 +24,7 @@
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
+    margin-top: 20px; /* ผมเพิ่ม margin ให้อยู่ห่างจาก card */
 }
 
 .button:hover {
@@ -22,6 +36,9 @@
     padding: 20px;
     border-radius: 50px;
     transition: transform 0.3s ease-in;
+    /* คุณอาจจะอยากเพิ่มเงา (box-shadow) 
+      เพื่อให้การ์ดดูสวยขึ้น
+    */
 }
 
 .card:hover {
